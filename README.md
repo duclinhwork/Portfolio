@@ -1,6 +1,6 @@
-# CV Website - Nguyễn Đức Linh
+# Portfolio - Nguyễn Đức Linh
 
-Professional CV website built with React + TypeScript + Vite, deployed on GitHub Pages.
+Professional portfolio website built with React + TypeScript + Vite, deployed on GitHub Pages.
 
 ## 🚀 Features
 
@@ -23,7 +23,7 @@ Professional CV website built with React + TypeScript + Vite, deployed on GitHub
 ## 📁 Project Structure
 
 ```
-cv-website/
+portfolio/
 ├── src/
 │   ├── components/          # React components
 │   ├── contexts/           # React contexts (Language, UI)
@@ -119,7 +119,7 @@ The CV content is stored in JSON files for easy editing:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd cv-website
+   cd portfolio
    ```
 
 2. **Install dependencies**
