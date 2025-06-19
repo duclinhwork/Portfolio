@@ -64,7 +64,7 @@ const HeroSection: React.FC = () => {
                     className="relative"
                   >
                     <img
-                      src="/avatar.jpg"
+                      src="./avatar.jpg"
                       alt={cvData.personal.name}
                       className="w-32 h-32 lg:w-40 lg:h-40 rounded-full object-cover border-4 border-white shadow-xl"
                     />
