@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { motion } from 'framer-motion';
-import { Brain, Wrench, BarChart3, Cloud, Users, Code, Database, TrendingUp } from 'lucide-react';
+import { Brain, Wrench, BarChart3, Cloud, Users } from 'lucide-react';
 
 interface SkillCategory {
   key: string;
@@ -17,7 +17,6 @@ interface SkillCategory {
 
 const SkillsSection: React.FC = () => {
   const { language } = useLanguage();
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   const skillCategories: SkillCategory[] = [
     {
@@ -133,13 +132,12 @@ const SkillsSection: React.FC = () => {
           viewport={{ once: true, amount: 0.3 }}
           className="space-y-6"
         >
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category) => (
             <motion.div
               key={category.key}
               variants={categoryVariants}
               className="group"
-              onMouseEnter={() => setActiveCategory(category.key)}
-              onMouseLeave={() => setActiveCategory(null)}
+
             >
               <div className="card p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-primary">
                 {/* Category Header */}

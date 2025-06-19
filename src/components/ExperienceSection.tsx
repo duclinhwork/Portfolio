@@ -86,7 +86,7 @@ const ExperienceSection: React.FC = () => {
           viewport={{ once: true, amount: 0.3 }}
           className="space-y-8"
         >
-          {cvData.experience.map((exp, index) => (
+          {cvData.experience.map((exp) => (
             <motion.div
               key={exp.id}
               variants={itemVariants}
