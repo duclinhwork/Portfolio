@@ -41,7 +41,6 @@
       "department": "Customer Service + Chatbot Project",
       "period": "February 2025 - Present",
       "isCurrentJob": true,
-      "summary": "AI & NLP Application for Customer Service Optimization",
       "achievements": [
         {
           "title": "Boosted CSAT in the first month",
@@ -70,7 +69,6 @@
       "department": "Corporate Data Office",
       "period": "July 2024 - January 2025",
       "isCurrentJob": false,
-      "summary": "Data Engineering, Governance, Analytics & Reporting",
       "achievements": [
         {
           "title": "Reduced data processing latency by 20%",
@@ -108,7 +106,6 @@
       "position": "MIS Analyst",
       "period": "2023 - 2024",
       "isCurrentJob": false,
-      "summary": "Process Automation, Business Intelligence & Data Visualization",
       "achievements": [
         {
           "title": "Reduced customer list allocation time from 1 hour to near real-time",
