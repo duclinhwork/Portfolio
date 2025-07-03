@@ -1,0 +1,255 @@
+{
+  "personal": {
+    "name": "NGUYỄN ĐỨC LINH",
+    "title": "Data Analyst | Machine Learning Engineer",
+    "email": "duclinh.work@gmail.com",
+    "phone": "+84-965-002-228",
+    "linkedin": "linkedin.com/in/duclinhwork",
+    "location": "Ho Chi Minh City, Vietnam"
+  },
+  "summary": "Data Analyst specializing in AI/ML, ETL pipelines, and Business Intelligence with practical application of AI in daily work. Passionate about problem-solving, quick to adapt to new technologies. Real-world experience at MoMo with AI chatbot projects and data engineering. Proficient in Python, SQL, BigQuery, and modern data analysis tools.",
+  "education": [
+    {
+      "id": "master-uit",
+      "degree": "Master of Information Systems",
+      "school": "University of Information Technology - VNU HCMC (UIT)",
+      "period": "December 2024 - Present",
+      "status": "ongoing",
+      "highlights": []
+    },
+    {
+      "id": "bachelor-ute",
+      "degree": "Bachelor of Data Engineering",
+      "school": "HCMC University of Technology and Education (UTE)",
+      "period": "October 2020 - October 2024",
+      "status": "completed",
+      "gpa": "Distinction",
+      "highlights": [
+        "Big Data Analysis",
+        "Data Visualization",
+        "Data Warehousing",
+        "Data Mining",
+        "Machine Learning (Linear Regression, Logistic Regression, Decision Tree, Random Forest, XGBoost, K-Means, KNN, DBSCAN)"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "momo-cs-chatbot",
+      "company": "MoMo",
+      "position": "Data Analyst",
+      "department": "Customer Service + Chatbot Project",
+      "period": "February 2025 - Present",
+      "isCurrentJob": true,
+      "summary": "AI & NLP Application for Customer Service Optimization",
+      "achievements": [
+        {
+          "title": "Boosted CSAT in the first month",
+          "description": "Meeting the year's CSAT goal early through systematic improvements and process optimizations.",
+          "impact": "business_growth"
+        }
+      ],
+      "responsibilities": [
+        "Analyzed chatbot response errors to identify root causes (data issues, NLP logic, process flaws)",
+        "Proposed systematic improvements and process optimizations",
+        "Built real-time chatbot performance monitoring dashboards",
+        "Implemented automated alert systems for data anomalies and customer issue detection",
+        "Applied AI models for sentiment analysis, customer issue categorization, and content summarization",
+        "Researched and implemented advanced techniques: Prompt Engineering, RAG (Retrieval-Augmented Generation), LLM, and Knowledge Base integration",
+        "Enhanced chatbot capabilities through systematic AI methodology application",
+        "Automated query scheduling and task distribution using n8n workflow automation",
+        "Collaborated closely with NLP and Customer Service teams on project delivery",
+        "Participated in defining key performance metrics and KPIs for chatbot effectiveness"
+      ],
+      "technologies": ["AI/ML", "NLP", "Prompt Engineering", "RAG", "LLM", "n8n", "Sentiment Analysis"]
+    },
+    {
+      "id": "momo-data-office",
+      "company": "MoMo",
+      "position": "Data Analyst Trainee",
+      "department": "Corporate Data Office",
+      "period": "July 2024 - January 2025",
+      "isCurrentJob": false,
+      "summary": "Data Engineering, Governance, Analytics & Reporting",
+      "achievements": [
+        {
+          "title": "Reduced data processing latency by 20%",
+          "description": "Achieved through optimization techniques on ETL pipeline systems.",
+          "impact": "efficiency"
+        },
+        {
+          "title": "2nd Place in MoMo's internal GenAI innovation competition",
+          "description": "Participated in internal MiMir Contest, building a QA chatbot using LLM.",
+          "impact": "recognition"
+        }
+      ],
+      "responsibilities": [
+        "Designed and developed 3 end-to-end ETL pipeline systems using Airflow and BigQuery",
+        "Aggregated data from multiple sources with optimized partitioning and schema design",
+        "Maintained Airflow tasks, performed data backfills, and resolved pipeline incidents",
+        "Updated business logic for changing requirements (MEU logic changes, new tracking implementations)",
+        "Built a comprehensive Data Catalog for ETL tables by combining GenAI with code-based linear relationship mapping to generate accurate and contextual metadata",
+        "Reviewed and consolidated tables by identifying unused or redundant ones and merging them into shared sources to reduce resource waste",
+        "Created Data Contracts for backend systems to push new tables to BigQuery",
+        "Revamped existing dashboards for optimal monitoring and performance tracking",
+        "Created new dashboards for feature launches and marketing campaign tracking",
+        "Owned the weekly and monthly performance reporting process, ensuring accurate, timely insights for stakeholders",
+        "Analyzed event tracking data to identify user behavior trends and actionable patterns",
+        "Performed deep-dive analysis on key business metrics to drive actionable insights and strategic recommendations",
+        "Investigated metric declines and calculated technical incident impacts on business performance",
+        "Analyzed and proposed building AI-powered user segmentation datasets for personalized targeting",
+        "Prepared and delivered 'ETL Best Practice' training content for team knowledge sharing"
+      ],
+      "technologies": ["Airflow", "BigQuery", "ETL", "GenAI", "Data Catalog", "SQL", "Looker"]
+    },
+    {
+      "id": "collectius",
+      "company": "Collectius",
+      "position": "MIS Analyst",
+      "period": "2023 - 2024",
+      "isCurrentJob": false,
+      "summary": "Process Automation, Business Intelligence & Data Visualization",
+      "achievements": [
+        {
+          "title": "Reduced customer list allocation time from 1 hour to near real-time",
+          "description": "Developed an API for automated allocation, increasing customer outreach efficiency by 20%.",
+          "impact": "efficiency"
+        },
+        {
+          "title": "Shortened reporting cycle from overnight to same-day",
+          "description": "Built an SSIS pipeline that reduced processing time by 50%.",
+          "impact": "efficiency"
+        },
+        {
+          "title": "Reduced document retrieval time from 3 hours to 30 minutes",
+          "description": "Created Python automation tools for daily document retrieval tasks.",
+          "impact": "efficiency"
+        }
+      ],
+      "responsibilities": [
+        "Developed API for automated customer list allocation to Call Center teams",
+        "Built SSIS pipeline for daily data updates and automated email reporting",
+        "Created Python automation tools for document retrieval",
+        "Developed data preprocessing tools for bank statement filtering and extraction",
+        "Built various operational support tools: fee calculation, document processing, allocation management",
+        "Designed and deployed Power BI dashboards for 5 departments (60+ employees)",
+        "Enhanced existing dashboards with MoM comparisons, and optimized visualizations",
+        "Developed comprehensive reports for sales performance, employee bonuses, and KPI tracking",
+        "Created automated Excel templates for weekly target calculations and annual leave management",
+        "Wrote complex SQL queries for database exploration and report preparation",
+        "Performed daily chart monitoring and anomaly detection with cross-departmental coordination",
+        "Provided ad-hoc data, reports, and customer lists for Call Center, Finance, and Risk Management teams",
+        "Documented business processes, variable definitions, and workflow procedures",
+        "Mastered data warehouse connections, SSIS setup, and database structure exploration",
+        "Researched advanced Power BI visualization tools (Deneb, Charticulator)"
+      ],
+      "technologies": ["Python", "API Development", "SSIS", "Power BI", "SQL Server", "Automation", "Excel"]
+    }
+  ],
+  "skills": {
+    "programming": {
+      "category": "Programming & Databases",
+      "items": [
+        { "name": "Python" },
+        { "name": "SQL (BigQuery, SQL Server)" }
+      ]
+    },
+    "tools": {
+      "category": "Data Tools & Platforms",
+      "items": [
+        { "name": "Airflow" },
+        { "name": "SSIS" },
+        { "name": "Looker" },
+        { "name": "Power BI" },
+        { "name": "Google Cloud Storage" },
+        { "name": "Cloud Functions" },
+        { "name": "GitLab" }
+      ]
+    },
+    "analytics": {
+      "category": "Analytics & Visualization",
+      "items": [
+        "Data Wrangling",
+        "A/B Testing",
+        "BI Reporting",
+        "Dashboard Creation"
+      ]
+    },
+    "soft_skills": {
+      "category": "Soft Skills",
+      "items": [
+        "Analytical Thinking",
+        "Cross-Functional Collaboration",
+        "Problem-Solving",
+        "Communication",
+        "Presentation",
+        "Storytelling"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": "shopee-sales-forecasting",
+      "title": "Machine Learning for Product Sales Prediction",
+      "github": "github.com/duclinhwork/ShopeeSalesForecasting",
+      "summary": "Built comprehensive ML models to predict daily sales of Shopee products.",
+      "technologies": ["Web Scraping", "Selenium", "XGBoost", "Random Forest", "LSTM", "PhoBERT Sentiment Analysis"],
+      "highlights": [
+        "Collected e-commerce sales data through web scraping and performed feature engineering.",
+        "Integrated customer review sentiment analysis using PhoBERT to enhance prediction accuracy.",
+        "Achieved significant accuracy improvements compared to baseline models."
+      ],
+      "featured": true
+    },
+    {
+      "id": "cloud-etl-ad-processing",
+      "title": "Cloud ETL for Ad Data Processing",
+      "github": "github.com/duclinhwork/Cloud-ETL-for-Ad-Data-Processing",
+      "summary": "Built Google Cloud Function for automated ETL workflows processing ad performance data.",
+      "technologies": ["Google Cloud Functions", "BigQuery", "Python", "Flask API", "Google Cloud Storage"],
+      "highlights": [
+        "Processed data files from GCS, transformed with Pandas, and loaded into BigQuery.",
+        "Implemented partitioning, schema updates, and data deduplication for query optimization.",
+        "Developed Flask-based API for reporting with external cost and currency data integration."
+      ],
+      "featured": true
+    }
+  ],
+  "certifications": [
+    {
+      "id": "miai-first-place",
+      "title": "1st Place - MIAI Contest (AI Application Competition)",
+      "type": "award",
+      "icon": "🏆",
+      "date": "2024"
+    },
+    {
+      "id": "momo-genai-second-place", 
+      "title": "2nd Place - MoMo's Internal Master Challenge (GenAI Innovation)",
+      "type": "award",
+      "icon": "🥈",
+      "date": "2024"
+    },
+    {
+      "id": "hackerrank-sql",
+      "title": "HackerRank: SQL (Advanced)",
+      "type": "certification",
+      "icon": "📜",
+      "issuer": "HackerRank"
+    },
+    {
+      "id": "hackerrank-problem-solving",
+      "title": "HackerRank: Problem Solving (Intermediate)", 
+      "type": "certification",
+      "icon": "📜",
+      "issuer": "HackerRank"
+    },
+    {
+      "id": "vstep-english",
+      "title": "English: VSTEP B1 (Level 3/6)",
+      "type": "certification", 
+      "icon": "🗣️",
+      "issuer": "VSTEP"
+    }
+  ]
+}

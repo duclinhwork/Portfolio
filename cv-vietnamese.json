@@ -1,0 +1,253 @@
+{
+  "personal": {
+    "name": "NGUYỄN ĐỨC LINH",
+    "title": "Chuyên viên Phân tích Dữ liệu | Kỹ sư Học máy",
+    "email": "duclinh.work@gmail.com",
+    "phone": "+84-965-002-228",
+    "linkedin": "linkedin.com/in/duclinhwork",
+    "location": "TP.HCM, Việt Nam"
+  },
+  "summary": "Chuyên viên Phân tích Dữ liệu chuyên về AI/ML, ETL pipeline và Business Intelligence có ứng dụng các AI trong công việc hàng ngày. Đam mê giải quyết vấn đề, thích ứng nhanh với công nghệ mới. Có kinh nghiệm thực tế tại MoMo với các dự án chatbot AI và data engineering. Thành thạo Python, SQL, BigQuery và các công cụ phân tích dữ liệu hiện đại.",
+  "education": [
+    {
+      "id": "master-uit",
+      "degree": "Thạc sĩ Hệ thống Thông tin",
+      "school": "Trường Đại học Công nghệ Thông tin - ĐH Quốc gia TP.HCM (UIT)",
+      "period": "Tháng 12/2024 - Hiện tại",
+      "status": "ongoing",
+      "highlights": []
+    },
+    {
+      "id": "bachelor-ute",
+      "degree": "Cử nhân Kỹ thuật Dữ liệu",
+      "school": "Trường Đại học Sư phạm Kỹ thuật TP.HCM (UTE)",
+      "period": "Tháng 10/2020 - Tháng 10/2024",
+      "status": "completed",
+      "gpa": "Loại Giỏi",
+      "highlights": [
+        "Phân tích Dữ liệu lớn",
+        "Trực quan hóa Dữ liệu",
+        "Kho Dữ liệu",
+        "Khai thác Dữ liệu",
+        "Học máy (Hồi quy Tuyến tính, Hồi quy Logistic, Cây Quyết định, Random Forest, XGBoost, K-Means, KNN, DBSCAN)"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "momo-cs-chatbot",
+      "company": "MoMo",
+      "position": "Chuyên viên Phân tích Dữ liệu",
+      "department": "Customer Service + Chatbot Project",
+      "period": "Tháng 2/2025 - Hiện tại",
+      "isCurrentJob": true,
+      "summary": "Ứng dụng AI & NLP để Tối ưu hóa Dịch vụ Khách hàng",
+      "achievements": [
+        {
+          "title": "Tăng CSAT trong tháng đầu",
+          "description": "Đạt mục tiêu CSAT của năm sớm hơn dự kiến thông qua cải tiến hệ thống và tối ưu hóa quy trình.",
+          "impact": "business_growth"
+        }
+      ],
+      "responsibilities": [
+        "Phân tích lỗi phản hồi chatbot để xác định nguyên nhân gốc (vấn đề dữ liệu, logic NLP, lỗi quy trình)",
+        "Đề xuất cải tiến hệ thống và tối ưu hóa quy trình",
+        "Xây dựng dashboard theo dõi hiệu suất chatbot thời gian thực",
+        "Triển khai hệ thống cảnh báo tự động cho bất thường dữ liệu và phát hiện vấn đề khách hàng",
+        "Áp dụng mô hình AI cho phân tích cảm xúc, phân loại vấn đề khách hàng và tóm tắt nội dung",
+        "Nghiên cứu và triển khai các kỹ thuật tiên tiến: Prompt Engineering, RAG (Retrieval-Augmented Generation), LLM và tích hợp Cơ sở Tri thức",
+        "Nâng cao khả năng chatbot thông qua áp dụng phương pháp AI có hệ thống",
+        "Tự động hóa lập lịch truy vấn và phân phối tác vụ bằng n8n workflow automation",
+        "Hợp tác chặt chẽ với đội ngũ NLP và Dịch vụ Khách hàng trong việc thực hiện dự án",
+        "Tham gia định nghĩa các chỉ số hiệu suất chính và KPI cho hiệu quả chatbot"
+      ],
+      "technologies": ["AI", "NLP", "Prompt Engineering", "RAG", "LLM", "n8n", "Phân tích Cảm xúc"]
+    },
+    {
+      "id": "momo-data-office",
+      "company": "MoMo",
+      "position": "Chuyên viên Phân tích Dữ liệu",
+      "department": "Corporate Data Office",
+      "period": "Tháng 7/2024 - Tháng 1/2025",
+      "isCurrentJob": false,
+      "summary": "Kỹ thuật Dữ liệu & Phát triển Pipeline, Quản trị & Quản lý Dữ liệu, Xuất sắc trong Phân tích & Báo cáo",
+      "achievements": [
+        {
+          "title": "Giảm độ trễ xử lý dữ liệu 20%",
+          "description": "Thông qua các kỹ thuật tối ưu hóa trên các hệ thống ETL pipeline.",
+          "impact": "efficiency"
+        },
+        {
+          "title": "Giải Nhì trong cuộc thi đổi mới GenAI nội bộ của MoMo",
+          "description": "Tham gia cuộc thi MiMir nội bộ, xây dựng chatbot QA sử dụng LLM.",
+          "impact": "recognition"
+        }
+      ],
+      "responsibilities": [
+        "Thiết kế và phát triển 3 hệ thống ETL pipeline từ đầu đến cuối sử dụng Airflow và BigQuery",
+        "Tổng hợp dữ liệu từ nhiều nguồn với thiết kế phân vùng và schema được tối ưu hóa",
+        "Duy trì các tác vụ Airflow, thực hiện backfill dữ liệu và giải quyết sự cố pipeline",
+        "Cập nhật logic nghiệp vụ cho các yêu cầu thay đổi (thay đổi logic MEU, triển khai tracking mới)",
+        "Xây dựng Data Catalog toàn diện cho các bảng ETL bằng cách kết hợp GenAI với ánh xạ mối quan hệ tuyến tính dựa trên code để tạo metadata chính xác và phù hợp ngữ cảnh",
+        "Xem xét và hợp nhất các bảng bằng cách xác định những bảng không sử dụng hoặc dư thừa và gộp chúng vào các nguồn chia sẻ để giảm lãng phí tài nguyên",
+        "Tạo Data Contracts cho các hệ thống backend để đẩy bảng mới vào BigQuery",
+        "Cải tiến các dashboard để tăng tốc độ query và dễ dàng tương tác để deep-dive vấn đề",
+        "Tạo dashboard mới để theo dõi tính năng và chiến dịch marketing mới",
+        "Đảm nhận vai trò chính cho báo cáo hiệu suất hàng tuần và hàng tháng, đảm bảo thông tin chính xác và kịp thời cho các bên liên quan",
+        "Phân tích dữ liệu theo dõi sự kiện để xác định xu hướng hành vi người dùng và các mẫu có thể hành động",
+        "Thực hiện phân tích sâu các chỉ số kinh doanh chính để đưa ra thông tin có thể hành động và khuyến nghị chiến lược",
+        "Điều tra sự suy giảm chỉ số và tính toán tác động của sự cố kỹ thuật lên hiệu suất kinh doanh",
+        "Phân tích và đề xuất xây dựng các tập dữ liệu phân khúc người dùng được hỗ trợ bởi AI để targeting cá nhân hóa",
+        "Chuẩn bị và trình bày nội dung \"ETL Best Practice\" sharing cho team"
+      ],
+      "technologies": ["Airflow", "BigQuery", "ETL", "GenAI", "Data Catalog", "LLM", "Looker"]
+    },
+    {
+      "id": "collectius",
+      "company": "Collectius",
+      "position": "Hệ thống thông tin quản lý",
+      "period": "2023 - 2024",
+      "isCurrentJob": false,
+      "summary": "Tự động hóa Quy trình & Phát triển Công cụ, Business Intelligence & Trực quan hóa Dữ liệu",
+      "achievements": [
+        {
+          "title": "Giảm thời gian xử lý từ 1 giờ xuống gần thời gian thực",
+          "description": "Phát triển API để phân bổ danh sách khách hàng tự động, tăng hiệu quả tiếp cận khách hàng 20%.",
+          "impact": "efficiency"
+        },
+        {
+          "title": "Rút ngắn chu kỳ báo cáo từ qua đêm xuống cùng ngày",
+          "description": "Xây dựng SSIS pipeline giảm thời gian xử lý 50%.",
+          "impact": "efficiency"
+        },
+        {
+          "title": "Giảm thời gian thực hiện hàng ngày từ 3 giờ xuống 30 phút",
+          "description": "Tạo công cụ tự động hóa Python để truy xuất tài liệu.",
+          "impact": "efficiency"
+        }
+      ],
+      "responsibilities": [
+        "Phát triển API để phân bổ danh sách khách hàng tự động cho các đội Call Center",
+        "Xây dựng pipeline SSIS cho cập nhật dữ liệu hàng ngày và báo cáo email tự động",
+        "Tạo công cụ tự động hóa Python để truy xuất tài liệu",
+        "Phát triển công cụ tiền xử lý dữ liệu để lọc và trích xuất sao kê ngân hàng",
+        "Xây dựng các công cụ hỗ trợ vận hành khác nhau: tính phí, xử lý tài liệu, quản lý phân bổ",
+        "Thiết kế và triển khai dashboard Power BI cho 5 phòng ban (60+ nhân viên)",
+        "Nâng cao các dashboard hiện có với so sánh MoM và tối ưu hóa trực quan hóa",
+        "Phát triển báo cáo toàn diện cho hiệu suất bán hàng, thưởng nhân viên và theo dõi KPI",
+        "Tạo template Excel tự động cho tính toán mục tiêu hàng tuần và quản lý nghỉ phép hàng năm",
+        "Viết các truy vấn SQL phức tạp để khám phá cơ sở dữ liệu và chuẩn bị báo cáo",
+        "Thực hiện theo dõi biểu đồ hàng ngày và phát hiện bất thường với phối hợp liên phòng ban",
+        "Cung cấp dữ liệu đặc biệt, báo cáo và danh sách khách hàng cho các đội Call Center, Tài chính và Quản lý Rủi ro",
+        "Tài liệu hóa quy trình kinh doanh, định nghĩa biến và thủ tục quy trình làm việc",
+        "Thành thạo kết nối kho dữ liệu, thiết lập SSIS và khám phá cấu trúc cơ sở dữ liệu",
+        "Nghiên cứu các công cụ trực quan hóa Power BI nâng cao (Deneb, Charticulator)"
+      ],
+      "technologies": ["Python", "API", "SSIS", "Power BI", "SQL", "Excel", "Automation"]
+    }
+  ],
+  "skills": {
+    "programming": {
+      "category": "Lập trình & Cơ sở dữ liệu",
+      "items": [
+        { "name": "Python" },
+        { "name": "SQL (BigQuery, SQL Server)" }
+      ]
+    },
+    "tools": {
+      "category": "Công cụ & Nền tảng Dữ liệu",
+      "items": [
+        { "name": "Airflow" },
+        { "name": "SSIS" },
+        { "name": "Looker" },
+        { "name": "Power BI" },
+        { "name": "Google Cloud Storage" },
+        { "name": "Cloud Functions" },
+        { "name": "GitLab" }
+      ]
+    },
+    "analytics": {
+      "category": "Phân tích & Trực quan hóa",
+      "items": [
+        "Xử lý Dữ liệu",
+        "A/B Testing",
+        "Báo cáo BI",
+        "Tạo Dashboard"
+      ]
+    },
+    "soft_skills": {
+      "category": "Kỹ năng mềm",
+      "items": [
+        "Tư duy Phân tích",
+        "Làm việc nhóm",
+        "Giải quyết Vấn đề",
+        "Giao tiếp",
+        "Thuyết trình",
+        "Kể chuyện qua dữ liệu"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": "shopee-sales-forecasting",
+      "title": "Học máy để Dự đoán Doanh số Sản phẩm",
+      "github": "github.com/duclinhwork/ShopeeSalesForecasting",
+      "summary": "Xây dựng mô hình ML toàn diện để dự đoán doanh số hàng ngày của sản phẩm Shopee.",
+      "technologies": ["Web Scraping", "Selenium", "XGBoost", "Random Forest", "LSTM", "Phân tích Cảm xúc PhoBERT"],
+      "highlights": [
+        "Thu thập dữ liệu bán hàng thương mại điện tử thông qua web scraping và thực hiện feature engineering",
+        "Tích hợp phân tích cảm xúc đánh giá khách hàng bằng PhoBERT để nâng cao độ chính xác dự đoán",
+        "Đạt được cải thiện độ chính xác đáng kể so với các mô hình cơ sở"
+      ]
+    },
+    {
+      "id": "cloud-etl-ad-processing",
+      "title": "Cloud ETL cho Xử lý Dữ liệu Quảng cáo",
+      "github": "github.com/duclinhwork/Cloud-ETL-for-Ad-Data-Processing",
+      "summary": "Xây dựng Google Cloud Function cho quy trình ETL tự động xử lý dữ liệu hiệu suất quảng cáo.",
+      "technologies": ["Google Cloud Functions", "BigQuery", "Python", "Flask API", "Google Cloud Storage"],
+      "highlights": [
+        "Xử lý tệp dữ liệu từ GCS, biến đổi với Pandas và tải vào BigQuery",
+        "Triển khai phân vùng, cập nhật schema và khử trùng dữ liệu để tối ưu hóa truy vấn",
+        "Phát triển API dựa trên Flask để báo cáo với tích hợp dữ liệu chi phí và tỷ giá ngoại tệ"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "miai-first-place",
+      "title": "Giải Nhất - Cuộc thi MIAI (Cuộc thi Ứng dụng AI)",
+      "type": "award",
+      "icon": "🏆",
+      "date": "2024"
+    },
+    {
+      "id": "momo-genai-second-place",
+      "title": "Giải Nhì - MoMo's Internal Master Challenge (Đổi mới GenAI)",
+      "type": "award", 
+      "icon": "🥈",
+      "date": "2024"
+    },
+    {
+      "id": "hackerrank-sql",
+      "title": "HackerRank: SQL (Nâng cao)",
+      "type": "certification",
+      "icon": "📜",
+      "issuer": "HackerRank"
+    },
+    {
+      "id": "hackerrank-problem-solving",
+      "title": "HackerRank: Giải quyết Vấn đề (Trung cấp)",
+      "type": "certification",
+      "icon": "📜", 
+      "issuer": "HackerRank"
+    },
+    {
+      "id": "vstep-english",
+      "title": "Tiếng Anh: VSTEP B1 (Cấp độ 3/6)",
+      "type": "certification",
+      "icon": "🗣️",
+      "issuer": "VSTEP"
+    }
+  ]
+}
