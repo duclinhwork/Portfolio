@@ -64,6 +64,15 @@ npm run dev
    - GitHub Actions will automatically build and deploy
    - Your site will be available at: `https://YOUR_USERNAME.github.io/Portfolio/`
 
+#### Troubleshooting GitHub Pages Deployment
+
+If you get `tar: out: Cannot open: No such file or directory`, try these steps:
+
+1. **Check the workflow logs** to see if the build step completed successfully
+2. **Verify the build** by running `npm run build` locally and checking if `out/` directory is created
+3. **Clear caches** by going to Actions tab > Caches and delete all caches
+4. **Re-run the deployment** from the Actions tab
+
 ### Option 2: Vercel (Easiest)
 
 1. **Connect to Vercel**:
