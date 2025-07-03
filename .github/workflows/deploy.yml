@@ -36,8 +36,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
+      - name: Remove conflicting config file
+        run: rm -f next.config.js
+        
       - name: Build with Next.js
-        run: npm run build
+        run: |
+          npm run build
+          # Ensure .nojekyll exists for GitHub Pages
+          touch out/.nojekyll || echo "out directory not found, .nojekyll will be created later"
         
       - name: List build output
         run: |
@@ -48,8 +54,35 @@ jobs:
             echo "Found out/ directory:"
             ls -la out/
           else
-            echo "No out/ directory found, checking alternatives..."
-            find . -name "*.html" -type f | head -10
+            echo "No out/ directory found, checking .next structure..."
+            find .next -name "*.html" -type f | head -10
+            echo "=== Checking for static export ==="
+            find . -maxdepth 2 -name "*.html" -type f | head -10
+          fi
+          
+      - name: Create out directory if needed
+        run: |
+          if [ ! -d "out" ]; then
+            echo "Creating out directory manually..."
+            mkdir -p out
+            # Copy static files from .next if available
+            if [ -d ".next/static" ]; then
+              cp -r .next/static out/_next
+            fi
+            # Copy server rendered pages if available
+            if [ -f ".next/server/app/index.html" ]; then
+              cp .next/server/app/index.html out/index.html
+            fi
+            # Copy public files
+            if [ -d "public" ]; then
+              cp -r public/* out/ 2>/dev/null || echo "No public files to copy"
+            fi
+            # Ensure .nojekyll exists
+            touch out/.nojekyll
+            echo "Manual out directory created"
+            ls -la out/
+          else
+            echo "out directory already exists"
           fi
           
       - name: Upload artifact
