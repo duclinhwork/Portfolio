@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Nguyễn Đức Linh
 
-## Getting Started
+Professional portfolio website showcasing experience as a Data Analyst and Machine Learning Engineer.
 
-First, run the development server:
+## 🚀 Features
 
+- **Bilingual Support**: Complete English/Vietnamese language switching
+- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
+- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **Professional Sections**: Experience, Skills, Projects, Education, Certifications
+- **Interactive UI**: Smooth animations and elegant hover effects
+- **Static Export**: Optimized for GitHub Pages deployment
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Pages / Vercel
+- **Data**: Static JSON files with bilingual content
+
+## 🏗️ Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/YOUR_USERNAME/Portfolio.git
+cd Portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Learn More
+## 📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Option 1: GitHub Pages (Recommended for GitHub)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Enable GitHub Pages**:
+   - Go to your repository Settings > Pages
+   - Source: "GitHub Actions"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Push to main branch**:
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
 
-## Deploy on Vercel
+3. **Automatic deployment**:
+   - GitHub Actions will automatically build and deploy
+   - Your site will be available at: `https://YOUR_USERNAME.github.io/Portfolio/`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Option 2: Vercel (Easiest)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Connect to Vercel**:
+   - Visit [vercel.com](https://vercel.com)
+   - Import your GitHub repository
+   - Deploy automatically
+
+2. **Custom domain** (optional):
+   - Add your custom domain in Vercel dashboard
+
+## 📁 Project Structure
+
+```
+Portfolio/
+├── .github/workflows/      # GitHub Actions deployment
+├── public/                 # Static assets (images, icons)
+├── src/
+│   ├── app/               # Next.js App Router pages
+│   ├── components/        # React components
+│   │   ├── layout/        # Header, Footer
+│   │   ├── sections/      # Page sections
+│   │   └── ui/           # Reusable UI components
+│   ├── contexts/         # React contexts (Language)
+│   ├── data/             # CV data (English/Vietnamese)
+│   ├── lib/              # Utility functions
+│   └── types/            # TypeScript definitions
+├── next.config.ts        # Next.js configuration
+└── package.json          # Dependencies and scripts
+```
+
+## 📝 Customization
+
+### Update Content
+1. **Personal Information**: Edit `src/data/cv-english.json` and `src/data/cv-vietnamese.json`
+2. **Profile Image**: Replace `public/avatar.jpg` with your photo
+3. **Colors/Styling**: Modify Tailwind classes in components
+
+### Add Sections
+1. Create new component in `src/components/sections/`
+2. Add to main page in `src/app/page.tsx`
+3. Update navigation in `src/components/layout/Header.tsx`
+
+## 🔧 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production 
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+- **Email**: duclinh.work@gmail.com
+- **LinkedIn**: [linkedin.com/in/duclinhwork](https://linkedin.com/in/duclinhwork)
+- **Location**: Ho Chi Minh City, Vietnam
