@@ -92,7 +92,7 @@ function ProjectCard({ project, language }: ProjectCardProps) {
           <Button
             variant="outline"
             size="sm"
-            onClick={() => window.open(project.github, '_blank')}
+            onClick={() => window.open(`https://${project.github}`, '_blank')}
             className="w-full"
           >
             <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">

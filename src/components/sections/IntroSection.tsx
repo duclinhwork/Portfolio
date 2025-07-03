@@ -17,7 +17,7 @@ export function IntroSection() {
             <div className="flex-shrink-0">
               <div className="relative w-48 h-48 md:w-56 md:h-56">
                 <Image
-                  src="/avatar.jpg"
+                  src="./avatar.jpg"
                   alt={cvData.personal.name}
                   fill
                   className="rounded-full object-cover shadow-xl"
