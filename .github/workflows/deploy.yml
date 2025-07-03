@@ -40,8 +40,18 @@ jobs:
         run: npm run build
         
       - name: List build output
-        run: ls -la && ls -la out/
-        
+        run: |
+          echo "=== Root directory ==="
+          ls -la
+          echo "=== Check for output directories ==="
+          if [ -d "out" ]; then
+            echo "Found out/ directory:"
+            ls -la out/
+          else
+            echo "No out/ directory found, checking alternatives..."
+            find . -name "*.html" -type f | head -10
+          fi
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
